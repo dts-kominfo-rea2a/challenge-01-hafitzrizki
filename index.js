@@ -54,11 +54,22 @@ const firstUser = {
     email: 'monica@dingdong.com',
     favoriteColor: [...mColorSet],
     isHavePet: true,
-    education:{
-        name: 'SD 01',
-        city: 'Jakarta',
-        graduate: 2016
-    },
+    education: [
+        {
+          name: 'SD 01',
+          city: 'Jakarta',
+          graduate: 2016
+        },
+        {
+          name: 'SMP 02',
+          city: 'Jakarta',
+          graduate: 2019
+        },
+        {
+          name: 'SMA 03',
+          city: 'Tangerang'
+        }
+    ],
     favoriteRestaurant: [...mFavRestoSet]
 };
 
@@ -69,11 +80,27 @@ const secondUser = {
     email: 'wendy@dingdong.com',
     favoriteColor: [...wColorSet],
     isHavePet: false,
-    education:{
-        name: 'SD 02',
-        city: 'Jakarta',
-        graduate: 2010
-    },
+    education: [
+        {
+          name: 'SD 02',
+          city: 'Jakarta',
+          graduate: 2010
+        },
+        {
+          name: 'SMP 03',
+          city: 'Bogor',
+          graduate: 2013
+        },
+        {
+          name: 'SMA 01',
+          city: 'Surabaya',
+          graduate: 2016
+        },
+        {
+          name: 'Universitas Maju',
+          city: 'Tangerang'
+        }
+    ],
     favoriteRestaurant: [...wFavRestoSet]
 };
 
